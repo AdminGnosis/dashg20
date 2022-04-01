@@ -1,0 +1,12 @@
+.navbar {
+    position: relative;
+    min-height: 100px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 10;
+}
+a.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}

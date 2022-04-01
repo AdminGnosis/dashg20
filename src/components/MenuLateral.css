@@ -1,0 +1,52 @@
+.MenuLateral {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.MenuLateral li h3 {
+    font-size: 1rem;
+    padding: 14px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    transition: all 1s;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.MenuLateral li h3:hover {
+    background: #333;
+    color: #ffffff;
+}
+
+.MenuLateral li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    display: none;
+    position: absolute;
+    left: 100px;
+    width: 300px;
+    margin-top: -49px;
+    background: #f2f2f2;
+}
+
+.MenuLateral li:hover ul {
+    display: block;
+}
+
+.MenuLateral li ul li a {
+    font-size: 0.9rem;
+    color: #333;
+    transition: all 1s;
+    display: block;
+    line-height: 1.2rem;
+    padding: 5px;
+}
+
+.MenuLateral li ul li a:hover {
+    background: #333333;
+    color: #ffffff;
+    text-decoration: none;
+}
